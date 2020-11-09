@@ -20,14 +20,14 @@ int main() {
 	  {-1, 5, -1},
 	  {0, -1, 0}
 	};
-	int result[11][11];
-	for (int i = 0; i < 11; i++) {
-		for (int j = 0; j < 11; j++) {
+	int result[10][10];
+	for (int i = 0; i < 10; i++) {
+		for (int j = 0; j < 10; j++) {
 			// your code here...
 		}
 	}
-	for (int i = 0; i < 11; i++) {
-		for (int j = 0; j < 11; j++) {
+	for (int i = 0; i < 10; i++) {
+		for (int j = 0; j < 10; j++) {
 			printf("\t%d", result[i][j]);
 		}
 		printf("\n");
